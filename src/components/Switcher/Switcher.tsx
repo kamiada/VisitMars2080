@@ -1,15 +1,15 @@
 import * as React from 'react';
-import {FC} from 'react';
 import { Container, SwitchButton } from './Switcher.styles';
-interface Props {
-    language: string;
-}
+import { LanguageContext } from './language-context';
 
-export const Switcher: FC<Props> = ({ language }) => {
+
+export const Switcher: React.FC<{}> = props => {
+    const langContext = React.useContext(LanguageContext);
     return (
         <Container>
             <SwitchButton>
-                Test
+                {props}
+                {langContext}
             </SwitchButton>
         </Container>
     )
