@@ -1,0 +1,15 @@
+{
+    "English": [
+       { "exampleLine":"Hello World"}
+    ],
+    "French": [
+        {
+            "exampleLine":"Bonjour le monde"
+        }
+    ],
+    "Polish": [
+        {
+            "exampleLine":"Witaj Świecie"
+        }
+    ]
+}

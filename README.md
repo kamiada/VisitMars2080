@@ -10,3 +10,9 @@ The purpose of this project is to
 `yarn test`
 `yarn build`
 `yarn eject`
+
+## Technologies used for this project
+- TypeScript
+- React JS
+- React Router
+- Styled Components
