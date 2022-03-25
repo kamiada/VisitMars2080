@@ -6,17 +6,17 @@ import { useState } from "react";
 function App() {
   const  changeLang = () => {
     console.log('here');
-    if(language === "English") {
-      return setLanguage("Polish");
+    if(language === "ENG") {
+      return setLanguage("PL");
     }
-    if(language === "Polish"){
-      return setLanguage("French");
+    if(language === "PL"){
+      return setLanguage("FR");
     }
-    if(language === "French"){
-      return setLanguage("English");
+    if(language === "FR"){
+      return setLanguage("ENG");
     }
   }
-  const [language, setLanguage] = useState("English");
+  const [language, setLanguage] = useState("ENG");
   return (
     <div className="App">
       <LanguageContext.Provider value={language}>

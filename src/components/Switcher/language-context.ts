@@ -1,19 +1,19 @@
 import * as React from "react";
 
 export const languages = {
-    "English": [
+    "ENG": [
         { "exampleLine":"Hello World"}
      ],
-     "French": [
+     "FR": [
          {
              "exampleLine":"Bonjour le monde"
          }
      ],
-     "Polish": [
+     "PL": [
          {
              "exampleLine":"Witaj Świecie"
          }
      ]
   };
   
-  export const LanguageContext = React.createContext(languages.English);
+  export const LanguageContext = React.createContext(languages.ENG);
