@@ -4,10 +4,7 @@ export const Container = styled.div`
 
 `;
 export const SwitchButton = styled.button`
-  /* Adapt the colors based on primary prop */
-  background: "palevioletred"};
   color: "white";
-
   font-size: 1em;
   margin: 1em;
   padding: 0.25em 1em;

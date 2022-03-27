@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { FC } from 'react';
-import { Layout } from '../../components'
+import { Image } from './FirstScreen.styles';
 
 interface Props {
     onClick: () => void;
@@ -8,8 +8,8 @@ interface Props {
 
 export const FirstScreen: FC<Props> = ({ onClick }) => {
     return (
-        <Layout>
-            Booo``
-        </Layout>
+        <Image src={require("../../assets/images/LittlePlanet.png")} />
+            
+        
     )
 }
