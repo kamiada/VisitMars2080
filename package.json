@@ -41,6 +41,11 @@
       "last 1 safari version"
     ]
   },
+  {
+    "resolutions": {
+      "styled-components": "^5"
+    }
+  },
   "browser": {
     "[module-name]": false
   },
