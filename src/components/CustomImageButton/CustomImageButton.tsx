@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Container, customButton } from './CustomImageButton.styles';
+import { Container, CustomButton } from './CustomImageButton.styles';
 import { FC } from 'react';
 
 interface Props {
@@ -10,7 +10,7 @@ interface Props {
 export const CustomImageButton: FC<Props> = ({onClick, srcImage}) => {
     return (
         <Container>
-            
+            <CustomButton>Here</CustomButton>
         </Container>
     )
 }
