@@ -4,10 +4,9 @@ import { FC } from 'react';
 
 interface Props {
     onClick: () => void;
-    srcImage?: String;
 }
 
-export const CustomImageButton: FC<Props> = ({onClick, srcImage}) => {
+export const CustomImageButton: FC<Props> = ({onClick}) => {
     return (
         <Container>
             <CustomButton>Here</CustomButton>
