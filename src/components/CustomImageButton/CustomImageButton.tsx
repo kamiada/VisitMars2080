@@ -4,12 +4,13 @@ import { FC } from 'react';
 
 interface Props {
     onClick: () => void;
+    text: String;
 }
 
-export const CustomImageButton: FC<Props> = ({onClick}) => {
+export const CustomImageButton: FC<Props> = ({ onClick, text }) => {
     return (
         <Container>
-            <CustomButton>Here</CustomButton>
+            <CustomButton onClick={onClick}>{text}</CustomButton>
         </Container>
     )
 }
