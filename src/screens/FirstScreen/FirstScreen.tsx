@@ -3,15 +3,15 @@ import { FC } from 'react';
 import { Image } from './FirstScreen.styles';
 import { CustomImageButton } from '../../components';
 
-interface Props {
-    onClick: () => void;
-}
+// interface Props {
+//     onClick: () => void;
+// }
 
-export const FirstScreen: FC<Props> = ({ onClick }) => {
+export const FirstScreen: FC = ({ }) => {
     return (
         <>
             <Image src={require("../../assets/images/LittlePlanet.png")}></Image>
-            <CustomImageButton onClick={onClick} text="Here"/>
+            <CustomImageButton onClick={() => console.log('here')} text="Here"/>
         </>
     )
 }
