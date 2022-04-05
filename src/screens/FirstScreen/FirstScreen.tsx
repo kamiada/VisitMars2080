@@ -11,7 +11,7 @@ export const FirstScreen: FC = ({ }) => {
     return (
         <>
             <Image src={require("../../assets/images/LittlePlanet.png")}></Image>
-            <CustomImageButton onClick={() => console.log('here')} text="Here"/>
+            <CustomImageButton onClick={() => console.log('here')} path="Here" buttonTitle="Click me" />
         </>
     )
 }

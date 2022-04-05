@@ -1,13 +1,9 @@
 import styled from 'styled-components';
-import buttonImage from '../../assets/images/marsPlanetButton.png';
-interface props {
-    url: String;
-}
 
 export const Container = styled.div`
 `;
 
-export const CustomButton = styled.button`
+export const CustomButton = styled.nav`
   background: transparent;
   border: white 2px bold;
   width: 100px;
