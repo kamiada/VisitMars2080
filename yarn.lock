@@ -6503,6 +6503,11 @@ lodash.debounce@^4.0.8:
   resolved "https://registry.npmjs.org/lodash.debounce/-/lodash.debounce-4.0.8.tgz"
   integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
 
+lodash.isfunction@^3.0.9:
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/lodash.isfunction/-/lodash.isfunction-3.0.9.tgz#06de25df4db327ac931981d1bdb067e5af68d051"
+  integrity sha512-AirXNj15uRIMMPihnkInB4i3NHeb4iBtNg9WRWuK2o31S+ePwwNmDPaTL3o7dTJ+VXNZim7rFs4rxN4YU1oUJw==
+
 lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "https://registry.npmjs.org/lodash.memoize/-/lodash.memoize-4.1.2.tgz"
@@ -6737,6 +6742,21 @@ neo-async@^2.6.2:
   version "2.6.2"
   resolved "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
+
+next-page-transition@^1.0.17:
+  version "1.0.17"
+  resolved "https://registry.yarnpkg.com/next-page-transition/-/next-page-transition-1.0.17.tgz#5866a9f8205296821e09c589defdab448154486b"
+  integrity sha512-Hd/+JglUl+LXIzLMsquti4MZcAmMmS118TLnKT/h35+GiawTtSgDcD2NBbvK6fGUkReSj5WpOrtGqHuoAzDFIw==
+  dependencies:
+    lodash.isfunction "^3.0.9"
+    next-router-events "^2.1.0"
+
+next-router-events@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/next-router-events/-/next-router-events-2.1.0.tgz#3efa96a8bf0e208e67183836c09d41c4d076f511"
+  integrity sha512-6veZHwk+asLNrBLzsgpGSfbLpRknakk8+zvzoWJq2EuK1b9+IBMqLQ0PaqdhmI/psQl39ydibXLxrqhIDKlRBw==
+  dependencies:
+    tiny-emitter "^2.0.2"
 
 no-case@^3.0.4:
   version "3.0.4"
@@ -8915,6 +8935,11 @@ timsort@^0.3.0:
   version "0.3.0"
   resolved "https://registry.npmjs.org/timsort/-/timsort-0.3.0.tgz"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
+
+tiny-emitter@^2.0.2:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
+  integrity sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q==
 
 tmpl@1.0.5:
   version "1.0.5"

@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+
 `;
 
 export const CustomNav = styled.nav`
-  background: transparent;
   border: white 2px bold;
   width: 100px;
   height: 120px;
@@ -14,4 +14,7 @@ export const CustomNav = styled.nav`
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   cursor: pointer;
-`;
+  background: red;
+  text-align: center;
+  
+  `;

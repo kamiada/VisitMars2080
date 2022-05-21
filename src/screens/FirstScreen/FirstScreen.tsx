@@ -10,7 +10,7 @@ import { Button, Title } from '../../components';
 export const FirstScreen: FC = ({ }) => {
     return (
         <>
-            <Title onClick={() => console.log('here')} path="Here" title="MARS" />
+            <Title onClick={() => console.log('here')} path="home" title="MARS" />
         </>
     )
 }
