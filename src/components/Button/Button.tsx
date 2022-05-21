@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Container, CustomButton } from './CustomImageButton.styles';
+import { Container, CustomNav } from './Button.styles';
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -9,12 +9,12 @@ interface Props {
     buttonTitle: String;
 }
 
-export const CustomImageButton: FC<Props> = ({ onClick, path, buttonTitle }) => {
+export const Button: FC<Props> = ({ onClick, path, buttonTitle }) => {
     return (
         <Container>
-            <CustomButton onClick={onClick}>
+            <CustomNav onClick={onClick}>
                 <Link to={`${path}`}>{buttonTitle}</Link>
-            </CustomButton>
+            </CustomNav>
         </Container>
     )
 }

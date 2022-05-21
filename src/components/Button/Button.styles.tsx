@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
 `;
 
-export const CustomButton = styled.nav`
+export const CustomNav = styled.nav`
   background: transparent;
   border: white 2px bold;
   width: 100px;
