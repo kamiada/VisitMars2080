@@ -3,7 +3,6 @@ import { Container, CustomNav, CustomText } from './Title.styles';
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
 
-
 interface Props {
     onClick: () => void;
     path: String;

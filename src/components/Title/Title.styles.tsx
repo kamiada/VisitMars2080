@@ -9,6 +9,7 @@ export const CustomNav = styled.nav`
   background: transparent;
   position: absolute;
   padding-bottom: 10%;
+  text-decoration: none;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

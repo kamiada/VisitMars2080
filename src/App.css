@@ -8,3 +8,18 @@ body {
   background-size: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
+h1 {
+  transition: text-shadow 2s linear;
+
+}
+
+h1:hover {
+  color:#fff;
+  text-shadow: 0 0 10px #fff,
+               0 0 20px #fff, 
+               0 0 40px #fff;
+}
