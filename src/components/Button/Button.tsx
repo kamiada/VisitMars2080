@@ -12,7 +12,7 @@ interface Props {
 export const Button: FC<Props> = ({ onClick, path, buttonTitle }) => {
     return (
         <Container>
-            <CustomNav onClick={onClick}>
+            <CustomNav onClick={onClick} id='button'>
                 <Link to={`${path}`}>{buttonTitle}</Link>
             </CustomNav>
         </Container>
