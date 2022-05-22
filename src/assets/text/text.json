@@ -1,0 +1,20 @@
+{
+    "ENG":[
+        {
+            "id":0,
+            "text":"Welcome to Mars! Now you can finally book the holidays of your dream with our ultra luxurious packages, designed just for you! Let yourself forgot about the problems of global warming, capitalism, clash of classes and all the other problems, by simply removing yourself from the Earth. Click onto next page, to pick a date, then chose right form of spoiling yourself while on the Red Planet and finally send us all the money, which you totally don't need. You deserve to treat yourself!"
+        }
+    ],
+    "PL": [
+        {
+            "id":0,
+            "text":"Witamy na Marsie! Już teraz możesz wybrać dla siebie wakacje swojego życia, zaprojektowanie tylko dla Ciebie! Pozwól sobie zapomnieć o globalnym ociepleniu, kapitalizmie, walce klas i wszystkich tych ziemskich problemach, poprzez jakże proste opuszczenie Ziemi. Kliknij na następną stronę, wybierz odpowiednią dla siebie datę, a następnie wybierz sposób w jaki planujesz się rozpieścić na Czerwonej Planecie. Następnie wyślij nam wszystkie te pieniądze, których z pewnością nie potrzebujesz. Zasługujesz na to by się rozpieścić!"
+        }
+    ],
+    "FR": [
+        {
+            "id":0,
+            "text":"Bienvenue sur Mars ! Vous pouvez enfin réserver les vacances de vos rêves avec nos forfaits ultra luxueux, conçus rien que pour vous ! Laissez-vous oublier les problèmes du réchauffement climatique, du capitalisme, du choc des classes et tous les autres problèmes, en vous retirant tout simplement de la Terre. Cliquez sur la page suivante pour choisir une date, puis choisissez la bonne façon de vous gâter pendant que vous êtes sur la planète rouge et envoyez-nous enfin tout l'argent, dont vous n'avez absolument pas besoin. Vous méritez de vous faire plaisir !"
+        }
+    ]
+}
