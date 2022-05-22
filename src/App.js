@@ -6,11 +6,29 @@ import { FirstScreen, SecondScreen } from "./screens";
 import { useState } from "react";
 
 function App() {
+  const changeLang = () => {
+    console.log("here");
+    if (language === "ENG") {
+      return setLanguage("PL");
+    }
+    if (language === "PL") {
+      return setLanguage("FR");
+    }
+    if (language === "FR") {
+      return setLanguage("ENG");
+    }
+  };
+  const [language, setLanguage] = useState("ENG");
   return (
-    <Routes>
-      <Route path="/" element={<FirstScreen />} />
-      <Route path="/home" element={<SecondScreen />} />
-    </Routes>
+    <>
+      <Routes>
+        <Route path="/" element={<FirstScreen />} />
+        <Route path="/home" element={<SecondScreen />} />
+      </Routes>
+      <LanguageContext.Provider value={language}>
+        <Switcher onClick={() => changeLang()} />
+      </LanguageContext.Provider>
+    </>
   );
   // const changeLang = () => {
   //   console.log("here");
