@@ -3,7 +3,7 @@ import { shallow } from 'enzyme';
 import { Button } from './Button';
 
 describe("Button functionality", () => {
-    it("work on click", () => {
+    test("work on click", () => {
         const mockCallBack = jest.fn();
         const button = shallow((<Button onClick={mockCallBack} path={'/example'} buttonTitle={'Test'} />));
         button.find('button').simulate('click');
