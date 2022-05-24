@@ -1,6 +1,7 @@
 import * as React from "react";
 import { shallow } from 'enzyme';
 import { Button } from './Button';
+import { render, screen } from '@testing-library/react'
 
 describe("Button functionality", () => {
     test("work on click", () => {
