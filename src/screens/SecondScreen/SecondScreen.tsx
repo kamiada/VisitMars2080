@@ -11,7 +11,7 @@ interface Props {
 export const SecondScreen: FC<Props> = ( {userAdvert} ) => {
     return (
         <>
-            <TextContainer text={userAdvert} />
+            <TextContainer id="welcomeText" />
             <Button onClick={() => console.log('here')} path="calendar" buttonTitle={"Hello"}/>
         </>
     )
