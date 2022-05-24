@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  float: left;
+  width: 300px;
+  height: 400px;
+  border: 1px white solid;
 `;

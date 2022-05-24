@@ -24,11 +24,11 @@ function App() {
   return (
     <>
       <LanguageContext.Provider value={{ language, toggleLanguage }}>
+        <Switcher onClick={() => setLanguage()} />
         <Routes>
           <Route path="/" element={<FirstScreen />} />
-          <Route path="/home" element={<SecondScreen userAdvert={"test"} />} />
+          <Route path="/home" element={<SecondScreen />} />
         </Routes>
-        <Switcher onClick={() => setLanguage()} />
       </LanguageContext.Provider>
     </>
   );
