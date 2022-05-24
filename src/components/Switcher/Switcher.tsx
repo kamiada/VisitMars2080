@@ -8,6 +8,8 @@ interface Props {
 }
 
 export const Switcher: FC<Props> = ({ onClick }) => {
+    // const { userLanguage, userLanguageChange } = React.useContext(LanguageContext);
+
     const langContext = React.useContext(LanguageContext);
     return (
         <Container>

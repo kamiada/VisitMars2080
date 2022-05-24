@@ -21,11 +21,11 @@ function App() {
   const [language, setLanguage] = useState("ENG");
   return (
     <>
+      <LanguageContext.Provider value={language}>
       <Routes>
         <Route path="/" element={<FirstScreen />} />
-        <Route path="/home" element={<SecondScreen />} />
+        <Route path="/home" element={<SecondScreen userAdvert={"test"}/>} />
       </Routes>
-      <LanguageContext.Provider value={language}>
         <Switcher onClick={() => changeLang()} />
       </LanguageContext.Provider>
     </>

@@ -1,3 +1,4 @@
+/* eslint-disable testing-library/render-result-naming-convention */
+import { render } from "@testing-library/react";
 import * as React from "react";
-import { shallow } from 'enzyme';
 import { Switcher } from './Switcher';

@@ -1,22 +1,12 @@
 import * as React from "react";
-import languages from '../../assets/text/text.json';
+import PL from '../../assets/text/pl.json';
+import ENG from '../../assets/text/eng.json';
+import FR from '../../assets/text/fr.json';
 
-// export const languages = {
-//     "ENG": [
-//         { "exampleLine":"Hello World"}
-//      ],
-//      "FR": [
-//          {
-//              "exampleLine":"Bonjour le monde"
-//          }
-//      ],
-//      "PL": [
-//          {
-//              "exampleLine":"Witaj Świecie"
-//          }
-//      ]
-//   };
-  
-//   export const LanguageContext = React.createContext(languages.ENG);
+export const dictionaryList = { ENG, FR, PL };
 
-export const LanguageContext = React.createContext(languages.ENG);
+export const languageOptions = {
+    ENG: 'English', FR: 'French', PL: 'Polish'
+};
+
+export const LanguageContext = React.createContext({ userLanguage: 'ENG', dictionary: dictionaryList.ENG });
