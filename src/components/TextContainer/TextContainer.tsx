@@ -3,13 +3,12 @@ import { Container } from './TextContainer.styles';
 import { FC } from 'react';
 
 interface Props {
-    accessibilityLabel: String;
     text: String
 }
 
-export const TextContainer: FC<Props> = ({accessibilityLabel, text}) => {
+export const TextContainer: FC<Props> = ({text}) => {
     return (
-        <Container>
+        <Container >
             {text}
         </Container>
     )
