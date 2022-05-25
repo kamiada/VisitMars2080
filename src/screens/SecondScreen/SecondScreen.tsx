@@ -1,7 +1,8 @@
 import * as React from 'react';
 import { FC } from 'react';
 import { Button, TextContainer } from '../../components';
-import { Container } from './SecondScreen.styles';
+import { Container, ButtonContainer } from './SecondScreen.styles';
+// import  * as Rocket from '../../assets/images/rocket.svg';
 
 interface Props {
     onClick: () => void;
@@ -12,7 +13,9 @@ export const SecondScreen: FC<Props> = ( ) => {
     return (
         <Container>
             <TextContainer id="welcomeText" />
-            <Button onClick={() => console.log('here')} path="calendar" buttonTitle={"Hello"}/>
+            <ButtonContainer>
+                <Button onClick={() => console.log('here')} path="calendar" buttonTitle={"Next"} />
+            </ButtonContainer>
         </Container>
     )
 }

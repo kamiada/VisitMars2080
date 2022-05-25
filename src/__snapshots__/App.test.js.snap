@@ -1,23 +1,67 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TextContainer Matches snapshot - default 1`] = `
+exports[`App Renders as expected 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="sc-bczRLJ osXkg"
+        class="sc-bczRLJ exiyks"
       >
-        Example of text
+        <button
+          class="sc-gsnTZi labjjK"
+        >
+          ENG
+        </button>
       </div>
+      <div
+        class="sc-eCYdqJ fIxumb"
+      >
+        <nav
+          class="sc-jSMfEi bAkmVg"
+        >
+          <a
+            href="/home"
+          >
+            <h1
+              class="sc-gKXOVf QAEMQ"
+            >
+              MARS
+            </h1>
+          </a>
+        </nav>
+      </div>
+      ,
     </div>
   </body>,
   "container": <div>
     <div
-      class="sc-bczRLJ osXkg"
+      class="sc-bczRLJ exiyks"
     >
-      Example of text
+      <button
+        class="sc-gsnTZi labjjK"
+      >
+        ENG
+      </button>
     </div>
+    <div
+      class="sc-eCYdqJ fIxumb"
+    >
+      <nav
+        class="sc-jSMfEi bAkmVg"
+      >
+        <a
+          href="/home"
+        >
+          <h1
+            class="sc-gKXOVf QAEMQ"
+          >
+            MARS
+          </h1>
+        </a>
+      </nav>
+    </div>
+    ,
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

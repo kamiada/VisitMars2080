@@ -11,6 +11,13 @@ body {
 
 a {
   text-decoration: none;
+  color: #140817; 
+  text-align: center;
+  margin-top: 20%;
+}
+a:visited {
+  color: #140817; 
+
 }
 
 h1 {

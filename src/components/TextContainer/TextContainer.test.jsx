@@ -5,8 +5,7 @@ import { TextContainer } from './TextContainer';
 
 describe('TextContainer', () => {
     test('Matches snapshot - default', () => {
-        const text = "Example of text";
-        const renderTextContainer = render(<TextContainer  id="welcomeText" />);
+        const renderTextContainer = render(<TextContainer  id="welcomeTexts" />);
         expect(renderTextContainer).toMatchSnapshot();
     })
 })
