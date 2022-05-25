@@ -1,4 +1,3 @@
-import { hover } from '@testing-library/user-event/dist/hover';
 import styled from 'styled-components';
 
 
@@ -18,7 +17,6 @@ export const CustomNav = styled.nav`
 `;
 
 export const CustomText = styled.h1`
-font-family: 'Libre Baskerville', serif;
 color: white;
 font-size: 100px;
 `;

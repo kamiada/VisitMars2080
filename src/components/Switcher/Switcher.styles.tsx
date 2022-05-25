@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   float: left;
+  width: 10em;
 `;
 export const SwitchButton = styled.button`
   color: #fff;
