@@ -31,7 +31,6 @@ Object {
           </a>
         </nav>
       </div>
-      ,
     </div>
   </body>,
   "container": <div>
@@ -61,7 +60,6 @@ Object {
         </a>
       </nav>
     </div>
-    ,
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
