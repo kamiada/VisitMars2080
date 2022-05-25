@@ -1,13 +1,12 @@
 /* eslint-disable testing-library/prefer-screen-queries */
 /* eslint-disable testing-library/render-result-naming-convention */
-import { render, screen } from "@testing-library/react";
+import { render } from "@testing-library/react";
 import App from "./App";
 import React, { Fragment } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import userEvent from "@testing-library/user-event";
 
 describe("App", () => {
-
   test("Renders as expected", () => {
     const application = render(
       <Fragment>
