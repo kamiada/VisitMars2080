@@ -3,6 +3,7 @@ import { FC } from 'react';
 import { Button, TextContainer } from '../../components';
 import { Container, ButtonContainer } from './SecondScreen.styles';
 // import  * as Rocket from '../../assets/images/rocket.svg';
+import { createApi } from "unsplash-js";
 
 interface Props {
     onClick: () => void;

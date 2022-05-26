@@ -23,6 +23,7 @@
     "sass": "^1.52.1",
     "styled-components": "^5.3.5",
     "ts-jest": "^28.0.3",
+    "unsplash-js": "^7.0.15",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
