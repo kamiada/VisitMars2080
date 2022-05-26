@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { FC } from 'react';
-import { Image } from './FirstScreen.styles';
-import { Button, Title } from '../../components';
+import { Title } from '../../components';
 
 // interface Props {
 //     onClick: () => void;

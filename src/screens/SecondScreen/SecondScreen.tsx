@@ -1,9 +1,8 @@
 import * as React from 'react';
 import { FC } from 'react';
-import { Button, TextContainer } from '../../components';
+import { Button, ImageContainer, TextContainer } from '../../components';
 import { Container, ButtonContainer } from './SecondScreen.styles';
-// import  * as Rocket from '../../assets/images/rocket.svg';
-import { createApi } from "unsplash-js";
+
 
 interface Props {
     onClick: () => void;
@@ -13,6 +12,7 @@ interface Props {
 export const SecondScreen: FC<Props> = ( ) => {
     return (
         <Container>
+            <ImageContainer />
             <TextContainer id="welcomeText" />
             <ButtonContainer>
                 <Button onClick={() => console.log('here')} path="calendar" buttonTitle={"Next"} />

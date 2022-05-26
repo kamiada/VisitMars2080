@@ -1,2 +1,2 @@
 export { FirstScreen } from "./FirstScreen";
-export { SecondScreen } from "./SecondScreen";
+export { SecondScreen } from './SecondScreen';
