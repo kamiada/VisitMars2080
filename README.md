@@ -17,6 +17,14 @@ The purpose of this project is to
 - React Router
 - Styled Components
 
+## TODO:
+- nicer  design
+- nav bar: about (fetches Mars data from Wikipedia)
+- book place, etc - save in some way
+- once saved, data is going to be called and transformed to feed component at the end
+- make PDF ticket
+- options to pay: your liver, firstborn, soul, etc
+
 ## Used Images - Credits: 
 Photo by <a href="https://unsplash.com/@lobosnico?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nicolas Lobos</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
